@@ -120,7 +120,7 @@ Cada registro é um dicionário com 5 campos, sempre incluindo `"id"` como chave
 
 ---
 
-## 📋 Métricas Coletadas
+## Métricas Coletadas
 
 Para cada estrutura são medidos:
 
