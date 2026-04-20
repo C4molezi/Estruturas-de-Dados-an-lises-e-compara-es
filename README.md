@@ -1,10 +1,10 @@
-# 📊 Benchmark de Estruturas de Dados
+# Benchmark de Estruturas de Dados
 
 Projeto de comparação de desempenho entre diferentes estruturas de dados em Python.
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -46,7 +46,7 @@ O script irá:
 
 ---
 
-## 🗂️ Estruturas de Dados Implementadas
+## Estruturas de Dados Implementadas
 
 ### `ListaSimples` — Lista Simplesmente Encadeada
 - Cada nodo aponta apenas para o próximo (`prox`)
@@ -84,7 +84,7 @@ O script irá:
 
 ---
 
-## 🎲 Gerador de Dados (`gerador_dados.py`)
+## Gerador de Dados (`gerador_dados.py`)
 
 Os dados são gerados de forma **determinística** usando `random.seed(matricula)`, garantindo reprodutibilidade. O tema e o volume dos dados são derivados da matrícula do aluno:
 
@@ -107,7 +107,7 @@ Cada registro é um dicionário com 5 campos, sempre incluindo `"id"` como chave
 
 ---
 
-## 📈 Gráficos Gerados
+## Gráficos Gerados
 
 | Arquivo | Descrição |
 |:---|:---|
@@ -133,7 +133,7 @@ As medições usam `time.perf_counter()` para maior precisão.
 
 ---
 
-## 🔍 Observações sobre Desempenho
+## Observações sobre Desempenho
 
 - A **TabelaHash** tende a ser a mais rápida para busca e remoção por chave em grandes volumes de dados, graças ao acesso O(1) amortizado.
 - A **ListaSimples** é mais lenta na inserção no fim (O(n)) por não manter ponteiro para a cauda.
@@ -142,6 +142,6 @@ As medições usam `time.perf_counter()` para maior precisão.
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Gabriel Augusto Camolezi** 
