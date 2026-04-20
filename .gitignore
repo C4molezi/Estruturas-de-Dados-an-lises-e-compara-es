@@ -1,0 +1,15 @@
+
+# Gráficos gerados automaticamente
+graficos/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
